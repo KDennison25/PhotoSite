@@ -1,2 +1,41 @@
 /* Importing Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+body {
+    background-color: blue;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+
+    /* VW sets the font/text size based on the width of the viewport (AKA Browser Window) */
+    font-size: 2vw;
+
+    border-bottom: 5px solid #ccc;
+    padding-bottom: 10px;
+
+    /* Width of two middle images */
+    /* 22.5 * 2 = 45 */
+    /* Width between two images */
+    /* 1.25 * 2 = 2.5 */
+    /* Width of the bottom of the paragraph element */
+    /* 45 + 2.5 = 47.5 */
+    width: 47.5%;
+
+    /*  */
+    margin: auto;
+}
+
+img {
+    /* 22.5 * 4 = 90 */
+    width: 22.5%;
+    /* 1.25 * 8 = 10 */
+    margin: 1.25%;
+
+    float: left;
+}
